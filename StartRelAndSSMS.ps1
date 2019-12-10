@@ -1,4 +1,5 @@
 ﻿#Script to start Chrome and sign into Relativity, then start SSMS
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
 
 $chromePath = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 $ssmsPath = "C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe"

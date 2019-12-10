@@ -1,4 +1,7 @@
-﻿$SHM = Get-Service -Name 'kCura Service Host Manager'
+﻿#Script to start Relativity Services
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.MessageBox")
+
+$SHM = Get-Service -Name 'kCura Service Host Manager'
 $WM = Get-Service -Name 'kCura EDDS Web Processing Manager'
 $AM = Get-Service -Name 'kCura EDDS Agent Manager'
 $IQM = Get-Service -Name 'Invariant Queue Manager'
