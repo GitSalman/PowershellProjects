@@ -24,7 +24,7 @@ if ($chrome) {
 [System.Windows.Forms.SendKeys]::SendWait("relativity.admin@relativity.com")
 [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
 Sleep 2
-[System.Windows.Forms.SendKeys]::SendWait("Password@1")
+[System.Windows.Forms.SendKeys]::SendWait("")
 [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
 
 
